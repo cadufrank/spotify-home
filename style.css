@@ -48,10 +48,13 @@ body{
 .container-biblioteca{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    
+    justify-content: space-around;   
+    width: 95%;
+    padding-top: 3%;
 }
 .sua-biblioteca-button {
+    display: flex;
+    justify-content: space-around;
     text-decoration: none;
     text-transform: none;
     background-color: transparent;
@@ -60,16 +63,30 @@ body{
     font-family: DM Sans, sans-serif;
     font-weight: 600;
     font-size: 14px;
-    padding-left: 5%;
+    
 }
 .plus-button{
+    
     text-decoration: none;
     text-transform: none;
     background-color: transparent;
     color: #b3b3b3;
     border: 0px;
-    margin-left: 30px;
     
+    
+}
+.botao-biblioteca{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    
+}
+.fa-book{
+    margin-right: 10px;
+}
+.fa-plus{
+    
+    background-color: none;
 }
 .bloco-playlist{
     background-color: #121212;
@@ -77,6 +94,8 @@ body{
     border-radius: 8px;
     height: 140px;
     padding-left: 6%;
+    display: flex;
+
 }
 .bloco-texto{
     color: #b3b3b3;
@@ -92,8 +111,8 @@ body{
     padding-top: 3%;
 }
 .container-botao{
-    padding-top: 8%;
-    padding-left: 8%;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 .botao-criar-playlist{
     background-color: aliceblue;
