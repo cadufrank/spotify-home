@@ -1,0 +1,136 @@
+body{
+    background-color: #000;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 350px;
+    background-color: #000000;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sidebar-navigation{
+    background-color: #121212;
+    border-radius: 8px;
+
+}
+
+.logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 10px 0 0 16px;
+}
+.logo img{
+    width: 80px;
+}
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: DM Sans, sans-serif;
+}
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.container-biblioteca{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.sua-biblioteca-button {
+    text-decoration: none;
+    text-transform: none;
+    background-color: transparent;
+    color: #b3b3b3;
+    border: 0px;
+    font-family: DM Sans, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 5%;
+}
+.plus-button{
+    text-decoration: none;
+    text-transform: none;
+    background-color: transparent;
+    color: #b3b3b3;
+    border: 0px;
+    margin-left: 30px;
+    
+}
+.bloco-playlist{
+    background-color: #121212;
+    margin-top: 5%;
+    border-radius: 8px;
+    height: 140px;
+    padding-left: 6%;
+}
+.bloco-texto{
+    color: #b3b3b3;
+    padding-top: 5%;
+}
+.bloco-texto-main{
+    font-family: DM Sans, sans-serif;
+    font-weight: 700;
+}
+.bloco-texto-paragrafo{
+    font-family: DM Sans, sans-serif;
+    font-size: 13px;
+    padding-top: 3%;
+}
+.container-botao{
+    padding-top: 8%;
+    padding-left: 8%;
+}
+.botao-criar-playlist{
+    background-color: aliceblue;
+    border: aliceblue;
+    border-radius: 16px;
+    padding: 3%;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.cookies{
+    
+    font-family: DM Sans, sans-serif;
+    font-weight: 1000;
+    font-size: 12px;
+    padding: 10% 9% 10% 5%;
+}
+.coockies-text{
+    text-decoration: none;
+    text-transform: none;
+    color: #b3b3b3;
+}
+
+.language-container{
+    padding-left: 5%;
+
+}
+.language-button{
+    background-color: transparent;
+    color: aliceblue;
+    border: solid 1px #b3b3b3;
+    border-radius: 18px;
+    padding: 3% 2% 3% 2%;
+    
+}
+.button-language-text{
+    font-family: DM Sans, sans-serif;
+    font-weight: 700;
+}
