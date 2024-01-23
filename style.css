@@ -16,16 +16,18 @@ body{
 }
 
 .sidebar-navigation{
-    background-color: #121212;
+    background-color: #000000;
     border-radius: 8px;
 
 }
 
 .logo{
-    background-color: #121212;
+    background-color: #0a0a0a;
     display: flex;
+    flex-direction: column;
     border-radius: 8px;
     padding: 10px 0 0 16px;
+    height: 140px;;
 }
 .logo img{
     width: 80px;
@@ -89,8 +91,8 @@ body{
     background-color: none;
 }
 .bloco-playlist{
-    background-color: #121212;
-    margin-top: 5%;
+    background-color: #0a0a0a;
+    margin-top: 2%;
     border-radius: 8px;
     height: 140px;
     padding-left: 6%;
