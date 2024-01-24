@@ -43,6 +43,9 @@ body{
     font-size: 14px;
     font-family: DM Sans, sans-serif;
 }
+.sidebar nav ul li a:hover, .sua-biblioteca-button:hover, .plus-button:hover{
+    color: #e6e6e6;
+}
 .sidebar ul li{
     padding: 10px 0;
 }
@@ -125,6 +128,10 @@ body{
     font-family: 'Montserrat';
     font-weight: 900;
 }
+.botao-criar-playlist:hover{
+    background-color: #353434;
+    color: #dfdede;
+}
 
 .cookies{
     
@@ -132,6 +139,10 @@ body{
     font-weight: 1000;
     font-size: 12px;
     padding: 10% 9% 10% 5%;
+}
+.cookies :hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 .coockies-text{
     text-decoration: none;
@@ -144,12 +155,16 @@ body{
 
 }
 .language-button{
-    background-color: transparent;
+    background-color: black;
     color: aliceblue;
     border: solid 1px #b3b3b3;
     border-radius: 18px;
-    padding: 3% 2% 3% 2%;
-    
+    padding: 3% 2% 3% 2%; 
+}
+.language-button:hover{
+    background-color: rgb(222, 220, 220);
+    color: #000000;
+    border: solid 1px #b3b3b3;
 }
 .button-language-text{
     font-family: DM Sans, sans-serif;
