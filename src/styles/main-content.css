@@ -94,3 +94,24 @@
     background-color: #3e3e3e;
     color: #bab8b8;
 }
+
+.main-section{
+    
+    margin: 50px;
+}
+.main-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 700;
+    padding: 10px 0 10px 20px;
+    color: #c2c0c0;
+}
+.main-section-text{
+    font-size: 35px;
+    margin: 0 0 20px 0;
+    font-weight: 750;
+}
+.main-section-text2{
+    font-size: 23px;
+}
