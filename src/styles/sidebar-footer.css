@@ -1,5 +1,6 @@
 body{
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -12,7 +13,6 @@ body{
     padding: 12px;
     display: flex;
     flex-direction: column;
-    
 }
 
 .sidebar-navigation{
@@ -41,7 +41,6 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: DM Sans, sans-serif;
 }
 .sidebar nav ul li a:hover, .sua-biblioteca-button:hover, .plus-button:hover{
     color: #e6e6e6;
@@ -65,7 +64,6 @@ body{
     background-color: transparent;
     color: #b3b3b3;
     border: 0px;
-    font-family: DM Sans, sans-serif;
     font-weight: 600;
     font-size: 14px;
     
@@ -107,11 +105,9 @@ body{
     padding-top: 5%;
 }
 .bloco-texto-main{
-    font-family: DM Sans, sans-serif;
     font-weight: 700;
 }
 .bloco-texto-paragrafo{
-    font-family: DM Sans, sans-serif;
     font-size: 13px;
     padding-top: 3%;
 }
@@ -134,8 +130,6 @@ body{
 }
 
 .cookies{
-    
-    font-family: DM Sans, sans-serif;
     font-weight: 1000;
     font-size: 12px;
     padding: 10% 9% 10% 5%;
@@ -167,7 +161,6 @@ body{
     border: solid 1px #b3b3b3;
 }
 .button-language-text{
-    font-family: DM Sans, sans-serif;
     font-weight: 700;
 }
 
@@ -191,7 +184,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: DM Sans, sans-serif;
     color: #e6e6e6;
     padding-left: 15px;
     
@@ -202,7 +194,6 @@ body{
 }
 .footer-text2{
     font-size: 15px;
-    font-family: 'Lato';
 }
 .footer-button{
     background-color: white;
