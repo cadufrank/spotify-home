@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Content</title>
-    <link rel="icon" href="./assets/icons/favicon.png" type="image/icon">
+    <link rel="icon" href="./src/assets/icons/favicon.png" type="image/icon">
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css">
 </head>
@@ -80,13 +81,13 @@
             <nav class="header-navigation">
                 <div class="navigation">
                     <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+                        <img src="./src/assets/icons/small-left.jpeg" alt="seta esquerda">
                     </button>
                     <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="seta direita">
+                        <img src="./src/assets/icons/small-right.jpeg" alt="seta direita">
                     </button>
                     <div class="header-search">
-                        <img src="./src/assets/icons/search.png" alt="">
+                        <img src="./src/assets/icons/search.jpeg" alt="">
                         <input id="search-input" type="text" maxlength="400" placeholder="O que você quer ouvir?"/>
                     </div>
                     <div class="header-login">
@@ -100,6 +101,117 @@
                 <div class="main-section-container">
                     <h1 class="main-section-text">Boa tarde</h1>
                     <p class="main-section-text2">Navegar por todas as seções</p>
+                </div>
+            </section>
+
+            <section class="offer-scroll-container">
+                <div class="offer-cards-list">
+                    <!-- Card 1-->
+                        <a href="#" class="cards">
+                            <div class="card1">
+                                <h1 class="card-text">Grimes</h1>
+                                <img src="./src/assets/playlist/1.jpg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 2-->
+                        <a href="#" class="cards">
+                            <div class="card2">
+                                <h1 class="card-text">Feitos para você</h1>
+                                <img src="./src/assets/playlist/2.png" alt="album-cover">
+                            </div>
+                         </a>
+                    <!-- Card 3-->
+                        <a href="#" class="cards">
+                            <div class="card3">
+                                  <h1 class="card-text">Lançamentos</h1>
+                                 <img src="./src/assets/playlist/3.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 4-->
+                        <a href="#" class="cards">
+                            <div class="card4">
+                                  <h1 class="card-text">Podcasts</h1>
+                                 <img src="./src/assets/playlist/4.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 5-->
+                        <a href="#" class="cards">
+                            <div class="card5">
+                                  <h1 class="card-text">Gym</h1>
+                                 <img src="./src/assets/playlist/5.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 6-->
+                        <a href="#" class="cards">
+                            <div class="card6">
+                                  <h1 class="card-text">Ciência Pura</h1>
+                                 <img src="./src/assets/playlist/6.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 7-->
+                        <a href="#" class="cards">
+                            <div class="card7">
+                                  <h1 class="card-text">This is Gaga</h1>
+                                 <img src="./src/assets/playlist/7.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 8-->
+                        <a href="#" class="cards">
+                            <div class="card8">
+                                  <h1 class="card-text">Pagodinho</h1>
+                                 <img src="./src/assets/playlist/8.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 9-->
+                        <a href="#" class="cards">
+                            <div class="card9">
+                                  <h1 class="card-text">Gospel</h1>
+                                 <img src="./src/assets/playlist/9.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 10-->
+                        <a href="#" class="cards">
+                            <div class="card10">
+                                  <h1 class="card-text">Senta e chora</h1>
+                                 <img src="./src/assets/playlist/10.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 11-->
+                        <a href="#" class="cards">
+                            <div class="card11">
+                                  <h1 class="card-text">Willow é você?!</h1>
+                                 <img src="./src/assets/playlist/11.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 12-->
+                        <a href="#" class="cards">
+                            <div class="card12">
+                                  <h1 class="card-text">Uma vibe diferente</h1>
+                                 <img src="./src/assets/playlist/12.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 13-->
+                        <a href="#" class="cards">
+                            <div class="card13">
+                                  <h1 class="card-text">Flor de Liz</h1>
+                                 <img src="./src/assets/playlist/13.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 14-->
+                        <a href="#" class="cards">
+                            <div class="card14">
+                                  <h1 class="card-text">Lo-Fi</h1>
+                                 <img src="./src/assets/playlist/14.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+                    <!-- Card 15-->
+                        <a href="#" class="cards">
+                            <div class="card15">
+                                  <h1 class="card-text">Some White Man Music</h1>
+                                 <img src="./src/assets/playlist/15.jpeg" alt="album-cover">
+                            </div>
+                        </a>
+
                 </div>
             </section>
 

@@ -96,8 +96,7 @@
 }
 
 .main-section{
-    
-    margin: 50px;
+    margin: 50px 0 10px 50px;
 }
 .main-section-container{
     display: flex;
@@ -115,3 +114,103 @@
 .main-section-text2{
     font-size: 23px;
 }
+/* Scroll offer part */
+.offer-scroll-container{
+    max-height: 43vh;
+    margin: 4px 40px 10px 64px;
+    overflow-y: auto; 
+}
+
+.offer-cards-list{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 10px;  
+}
+
+/* Barra de rolagem horizontal */
+
+.offer-scroll-container::-webkit-scrollbar {
+    width: 1px;
+}
+.offer-scroll-container::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+
+/* CARD 1 E CONFIGURAÇÃO GERAL DE ESTILO DOS CARDS*/
+
+.cards{
+    position: relative;
+    width: 220px;
+    height: 200px;
+    text-decoration: none;
+    color: #d1d1d1;
+    font-weight: 600;
+    display: grid;
+    overflow: hidden;
+    border-radius: 8px;    
+}
+
+.card-text{
+    padding: 15px 0 0 20px;
+    font-size: 20px;
+    width: 130px;
+}
+.cards img{
+    position: absolute;
+    width: 140px;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    transform: rotate(30deg) translate(14%, 10%);
+    border-radius: 8px;
+}
+.card1{
+    background: linear-gradient(to right,#FF0000,#00BFFF);
+}
+.card2{
+    background: linear-gradient(to right, #6a5acd, #141414);
+}
+.card3{
+    background: linear-gradient(to right, #2011c8, #fa42c3);
+}
+.card4{
+    background: linear-gradient(to right, #FA8072, #ff1900);
+}
+.card5{
+    background: linear-gradient(to right, #010141, #f9b2c0);
+}
+.card6{
+    background: linear-gradient(to right, #015d01,  #acffac);
+}
+.card7{
+    background: linear-gradient(to right, #6a0572, #ab83a1);
+
+}
+.card8{
+    background: linear-gradient(to right,#FA8072, #FFFF00); 
+}
+.card9{
+    background: linear-gradient(to right, #3a7f80, #c24578);
+}
+.card10{
+    background: linear-gradient(to right, #8c1d80, #18a26b);
+}
+.card11{
+    background: linear-gradient(to right, #5a9237, #e34a4a);
+}
+.card12{
+    background: linear-gradient(to right, #ff4e50, #fcde67);
+}
+.card13{
+    background: linear-gradient(to right, #3c4f7e, #e69b1e);
+}
+.card14{
+    background: linear-gradient(to right, #6a2d96, #4e8bd1);
+}
+.card15{
+    background: linear-gradient(to right, #1b8475, #b24785);
+}
+
